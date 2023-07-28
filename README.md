@@ -14,12 +14,14 @@ To understand and run the custom logic circuit, you will need the following:
 The Multiplier2 circuit template takes the following input signals:
 
 **a**: Input signal representing the first operand.
+
 **b**: Input signal representing the second operand.
 
 ## Intermediate Signals
 The circuit creates two intermediate signals:
 
 **x**: Result of the AND operation between signals a and b.
+
 **y**: Result of the NOT operation on signal b.
 
 ## Output Signal
