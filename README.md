@@ -1,7 +1,7 @@
 # Multiplier Circuit in CIRCOM
 ## Overview
 
-This CIRCOM code defines a circuit template called Multiplier2, which checks whether the output signal c is the result of multiplying input signals a and b. The circuit uses custom gates for AND, NOT, and OR operations.
+This CIRCOM code defines a circuit template called Multiplier2, which checks whether the output signal c is the result of multiplying input signals a and b. The circuit uses custom gates for **AND**, **NOT**, and **OR** operations.
 
 ## Prerequisites
 To understand and run the custom logic circuit, you will need the following:
@@ -13,17 +13,18 @@ To understand and run the custom logic circuit, you will need the following:
 ## Input Signals
 The Multiplier2 circuit template takes the following input signals:
 
-1. a: Input signal representing the first operand.
-2. b: Input signal representing the second operand.
+**a**: Input signal representing the first operand.
+**b**: Input signal representing the second operand.
 
 ## Intermediate Signals
 The circuit creates two intermediate signals:
 
-1. x: Result of the AND operation between signals a and b.
-2. y: Result of the NOT operation on signal b.
+**x**: Result of the AND operation between signals a and b.
+**y**: Result of the NOT operation on signal b.
 
 ## Output Signal
 The final output signal is:
+
 **q**: Result of the OR operation between signals x and y. It indicates whether c is the multiplication of a and b.
 
 ## Custom Gates
